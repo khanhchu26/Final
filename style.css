@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "PT Mono", monospace;
+    font-size: medium;
+}
+body {
+    background-color: #f4f4f4;
+    justify-content: center;
+    align-items: center;
+}
+.text-center{
+    color: #007bff;
+}
+.blue { 
+    align-items: center;
+    color: blue;
+}
+/*.red { */
+/*    color: red; */
+/*}*/
+.form-row{
+    font-size: 30px;
+    padding: 10px;
+}
+.col{
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+    margin-top: 20px auto;
+}
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 24px; /* Tăng kích thước chữ */
+    text-align: center;
+    min-width: 40px; /* Đảm bảo kích thước ô đủ lớn */
+} 
+
+#results {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.text-content{
+    font-size: 24px;
+}
