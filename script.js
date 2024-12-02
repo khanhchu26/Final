@@ -144,8 +144,6 @@ function updateTable(result, referenceString, frameSize, algorithm) {
                     <p style="font-size:24px">Số lượng của trang: ${referenceString.length}</p>
                     <p style="font-size:24px">Khung trang: ${frameSize}</p>
                     <p style="font-size:24px; text-align: center;">
-                    <span class="blue" style="font-size:24px">Blue</span> là chuỗi tham chiếu<br>
-<!--                    <span class="red" style="font-size:24px">Red</span> is the replaced value when page fault occurs-->
                     </p>`;
     
     resultHTML += '<table border="1" style=" text-align:center; border-collapse:collapse;">';
